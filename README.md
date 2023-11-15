@@ -7,7 +7,7 @@ This repo contains my solution to [Kaggle Vesuvius competition](https://www.kagg
 
 ## Problem statement
 
-In 79 AD, Mount Vesuvius erupted, burying a library of ancient Greek papyrus scrolls in hot mud and ash. Nearly 2,000 years later, scientists are using 3D X-ray scans with 4µm resolution to detect ink on carbonized scrolls, hoping to recover lost Greek literature from the ashes. But as the ink does not show up readily in X-ray scans, machine learning techniques that can distinguish nuance between ink and non-ink voxels are needed.
+In 79 AD, Mount Vesuvius erupted, burying a library of ancient Roman papyrus scrolls in hot mud and ash. Nearly 2,000 years later, scientists are using 3D X-ray scans with 4µm resolution to detect ink on carbonized scrolls, hoping to recover lost Greek literature from the ashes. But as the ink does not show up readily in X-ray scans, machine learning techniques that can distinguish nuance between ink and non-ink voxels are needed.
 
 ## Method
 
