@@ -11,4 +11,8 @@ In 79 AD, Mount Vesuvius erupted, burying a library of ancient Greek papyrus scr
 
 ## Method
 
-The 3D scans are represented as a grid of voxels, each voxel having a rectangular shape with dimensions DxWxH. The values of these voxels represent the density of the scanned items. Many winning solutions apply 3D segmentation models directly on these scans to extract regions with ink. However, essentially these scrolls are not flat, and their shapes are irregular. To address this, an extra step is introduced in my solution. I reconstructed the 3D structure of the papyrus scrolls from the voxel values, and then flattened them into regular rectangular shapes. By implementing this additional step, the method achieves significant improvements in performance. Specifically, two UNet-3D models ensemble could reach performance of "golden medal zone". Furthermore, it opens the door for even more advanced models like Segformer to be applied and potentially enhanced further.
+The 3D scans are represented as a grid of voxels, each voxel having a rectangular shape with dimensions DxWxH. The values of these voxels represent the density of the scanned items. Many winning solutions apply 3D segmentation models directly on these scans to extract regions with ink. 
+
+However, essentially these scrolls are not flat, and their shapes are irregular. To address this, an extra step is introduced in my solution. I reconstructed the 3D structure of the papyrus scrolls from the voxel values, and then flattened them into regular rectangular shapes. 
+
+By implementing this additional step, the method achieves significant improvements in performance. Specifically, two UNet-3D models ensemble could reach performance of "golden medal zone". Furthermore, it opens the door for even more advanced models like Segformer to be applied and potentially enhanced further.
