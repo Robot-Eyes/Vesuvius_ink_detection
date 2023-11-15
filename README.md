@@ -1,6 +1,6 @@
 # Vesuvius_ink_detection
 
-This repo contains my solution to (Kaggle Vesuvius competition)[https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection]. This method can achieve 0.647 Private LB which is in the golden medal zone.
+This repo contains my solution to [Kaggle Vesuvius competition](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection). This method can achieve 0.647 Private LB which is in the golden medal zone.
 
 ![image](https://github.com/Robot-Eyes/Vesuvius_ink_detection/assets/100538999/f5657ce3-c448-408e-aeb5-e40022d73ca7)
 
